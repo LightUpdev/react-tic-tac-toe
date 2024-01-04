@@ -1,0 +1,15 @@
+.tiles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  cursor: pointer;
+}
+.x-hover:hover::after {
+  content: "X";
+  opacity: 0.5;
+}
+.o-hover:hover::after {
+  content: "O";
+  opacity: 0.5;
+}
